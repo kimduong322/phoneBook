@@ -9,7 +9,7 @@ data class phoneModel(
     var email: String
 )
 
-fun createFakePhoneData(): List<phoneModel> {
+fun createFakePhoneData(): MutableList<phoneModel> {
     val faker = Faker()
 
     val phoneList = mutableListOf<phoneModel>()
